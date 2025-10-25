@@ -6,6 +6,9 @@ public class TriangleNumberCalculator {
         if(n==1){
             return 1;
         }
+        else if(n < 1){
+            return 0;
+        }
         return n+value(n-1);
     }
 
@@ -31,6 +34,6 @@ public class TriangleNumberCalculator {
 
     // Returns a list of triangular numbers up to the nth number
     public String sequence(int n) {
-        return "";
+        return sequence(n-1) + ", " + value(n);
     }
 }
