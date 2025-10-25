@@ -34,6 +34,12 @@ public class TriangleNumberCalculator {
 
     // Returns a list of triangular numbers up to the nth number
     public String sequence(int n) {
+        if(n==1){
+            return "1";
+        }
+        else if(n < 1){
+            return "";
+        }
         return sequence(n-1) + ", " + value(n);
     }
 }

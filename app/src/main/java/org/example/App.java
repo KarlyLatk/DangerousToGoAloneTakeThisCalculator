@@ -24,5 +24,7 @@ public class App {
         System.out.println(calculator.subtract(1, 1)); // This should print out 0
         System.out.println(calculator.subtract(2, 3)); // This should print out -3
         System.out.println(calculator.subtract(4, 2)); // This should print out 7
+
+        System.out.println(calculator.sequence(3));
     }
 }

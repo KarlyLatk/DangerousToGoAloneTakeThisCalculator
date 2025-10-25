@@ -1,5 +1,7 @@
 package org.example;
 
+
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -50,7 +52,5 @@ public class TriangleNumberCalculatorTest {
     public void testTriangleNumberCalculatorSequence() {
         assertEquals(numberCalculator.sequence(3), "1, 3, 6");
     }
-
-
 
 }
